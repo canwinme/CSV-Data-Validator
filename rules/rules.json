@@ -1,0 +1,23 @@
+{
+  "id": {
+    "type": "int",
+    "required": true,
+    "unique": true
+  },
+  "name": {
+    "type": "str",
+    "required": true
+  },
+  "age": {
+    "type": "int",
+    "required": true,
+    "min": 0,
+    "max": 120
+  },
+  "score": {
+    "type": "float",
+    "required": true,
+    "min": 0,
+    "max": 100
+  }
+}
